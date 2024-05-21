@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>ProsperWise</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-grow text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <a
+                href="index.html"
+                class="navbar-brand d-flex align-items-center px-4 px-lg-5"
+            >
+                <h1 class="m-0 text-primary">ProsperWise</h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Home</a
+                    >
+                    <a href="#about" class="nav-item nav-link">About</a>
+                    <a href="#service" class="nav-item nav-link">Service</a>
+                    <a href="#team" class="nav-item nav-link">Team</a>
+                    <a href="#contact" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-primary p-0 mb-5">
+            <div
+                class="row g-0 align-items-center flex-column-reverse flex-lg-row"
+            >
+                <div class="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="display-4 text-white mb-5">
+                        Navigating Financial Waters: Your Guide to Prosperity
+                    </h1>
+                    <div class="row g-4">
+                        <div class="col-sm-4">
+                            <div class="border-start border-light ps-4">
+                                <h2
+                                    class="text-white mb-1"
+                                    data-toggle="counter-up"
+                                >
+                                    45
+                                </h2>
+                                <p class="text-light mb-0">
+                                    Expert consultants
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="border-start border-light ps-4">
+                                <h2
+                                    class="text-white mb-1"
+                                    data-toggle="counter-up"
+                                >
+                                    41
+                                </h2>
+                                <p class="text-light mb-0">Projects Done</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="border-start border-light ps-4">
+                                <h2
+                                    class="text-white mb-1"
+                                    data-toggle="counter-up"
+                                >
+                                    831
+                                </h2>
+                                <p class="text-light mb-0">Happy Clients</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel header-carousel">
+                        <div class="owl-carousel-item position-relative">
+                            <img
+                                class="img-fluid"
+                                src="img/carousel-1.jpg"
+                                alt=""
+                            />
+                            <div class="owl-carousel-text">
+                                <h1 class="display-1 text-white mb-0">
+                                    Financial planning
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="owl-carousel-item position-relative">
+                            <img
+                                class="img-fluid"
+                                src="img/carousel-2.jpg"
+                                alt=""
+                            />
+                            <div class="owl-carousel-text">
+                                <h1 class="display-1 text-white mb-0">
+                                    Portfolio diversification
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="owl-carousel-item position-relative">
+                            <img
+                                class="img-fluid"
+                                src="img/carousel-3.jpg"
+                                alt=""
+                            />
+                            <div class="owl-carousel-text">
+                                <h1 class="display-1 text-white mb-0">
+                                    Smart investing
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex flex-column">
+                            <img
+                                class="img-fluid rounded w-75 align-self-end"
+                                src="img/about-1.jpg"
+                                alt=""
+                            />
+                            <img
+                                class="img-fluid rounded w-50 bg-white pt-3 pe-3"
+                                src="img/about-2.jpg"
+                                alt=""
+                                style="margin-top: -25%"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <p class="d-inline-block border rounded-pill py-1 px-4">
+                            About Us
+                        </p>
+                        <h1 class="mb-4">
+                            Why You Should Trust Us? Get Know About Us!
+                        </h1>
+                        <p>
+                            At our consultancy, we are dedicated to empowering
+                            individuals and businesses on their journey towards
+                            financial independence and stability. With expertise
+                            in financial planning, portfolio diversification,
+                            asset management, and investment strategy, we offer
+                            personalized solutions tailored to your unique needs
+                            and goals.
+                        </p>
+                        <p class="mb-4">
+                            Whether you're aiming to build passive income
+                            streams, explore long-term investments, or seek
+                            financial stability, our consultancy provides the
+                            guidance and support you need to make informed
+                            decisions and achieve your financial aspirations.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle text-primary me-3"></i
+                            >Tailored Solutions
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle text-primary me-3"></i
+                            >Expertise and Guidance
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle text-primary me-3"></i
+                            >Financial Empowerment
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <p class="d-inline-block border rounded-pill py-1 px-4">
+                        Services
+                    </p>
+                    <h1>
+                        Comprehensive Financial Solutions: Explore Our Services
+                    </h1>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item bg-light rounded h-100 p-5">
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                style="width: 65px; height: 65px"
+                            >
+                                <i
+                                    class="fa fa-solid fa-coins text-primary fs-4"
+                                ></i>
+                            </div>
+                            <h4 class="mb-3">Financial Planning</h4>
+                            <p class="mb-4">
+                                Our financial planning service helps you create
+                                a roadmap to achieve your financial goals. From
+                                budgeting to retirement planning, we provide
+                                personalized strategies to secure your financial
+                                future.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="service-item bg-light rounded h-100 p-5">
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                style="width: 65px; height: 65px"
+                            >
+                                <i
+                                    class="fa fa-solid fa-chart-line text-primary fs-4"
+                                ></i>
+                            </div>
+                            <h4 class="mb-3">Portfolio Diversification</h4>
+                            <p class="mb-4">
+                                Diversify your investments across various asset
+                                classes and regions to minimize risk and
+                                maximize returns. Our portfolio diversification
+                                strategies ensure your investments are
+                                well-balanced and positioned for long-term
+                                growth.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="service-item bg-light rounded h-100 p-5">
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                style="width: 65px; height: 65px"
+                            >
+                                <i
+                                    class="fa fa-solid fa-comments-dollar text-primary fs-4"
+                                ></i>
+                            </div>
+                            <h4 class="mb-3">Asset Management</h4>
+                            <p class="mb-4">
+                                Our asset management service provides
+                                professional oversight and active management of
+                                your investments. We monitor market trends and
+                                adjust your portfolio to optimize performance
+                                and mitigate risks.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item bg-light rounded h-100 p-5">
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                style="width: 65px; height: 65px"
+                            >
+                                <i
+                                    class="fa fa-solid fa-file-invoice-dollar text-primary fs-4"
+                                ></i>
+                            </div>
+                            <h4 class="mb-3">Investment Strategy</h4>
+                            <p class="mb-4">
+                                Develop a robust investment strategy tailored to
+                                your financial goals and risk tolerance. Our
+                                experts provide insights and guidance to help
+                                you make informed decisions and maximize
+                                returns.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="service-item bg-light rounded h-100 p-5">
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                style="width: 65px; height: 65px"
+                            >
+                                <i
+                                    class="fa fa-solid fa-seedling text-primary fs-4"
+                                ></i>
+                            </div>
+                            <h4 class="mb-3">Passive Income Solutions</h4>
+                            <p class="mb-4">
+                                Generate passive income streams through smart
+                                investing strategies. From dividend stocks to
+                                real estate investments, we help you build
+                                sources of passive income for financial
+                                security.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="service-item bg-light rounded h-100 p-5">
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                style="width: 65px; height: 65px"
+                            >
+                                <i
+                                    class="fa fa-solid fa-layer-group text-primary fs-4"
+                                ></i>
+                            </div>
+                            <h4 class="mb-3">Invest in South Africa</h4>
+                            <p class="mb-4">
+                                Explore investment opportunities in South Africa
+                                with our expert guidance. From emerging markets
+                                to established industries, we provide insights
+                                and strategies to capitalize on the potential of
+                                investing in South Africa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid bg-primary overflow-hidden my-5 px-lg-0">
+            <div class="container feature px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 feature-text py-5 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="p-lg-5 ps-lg-0">
+                            <p
+                                class="d-inline-block border rounded-pill text-light py-1 px-4"
+                            >
+                                Features
+                            </p>
+                            <h1 class="text-white mb-4">Why Choose Us</h1>
+                            <p class="text-white mb-4 pb-2">
+                                At our consultancy, we are not just advisors; we
+                                are your partners in achieving financial
+                                success. With a commitment to excellence and a
+                                focus on your financial well-being, we offer a
+                                comprehensive suite of services designed to
+                                address your unique needs and goals. Our
+                                expertise in financial planning, portfolio
+                                diversification, asset management, and
+                                investment strategy ensures that you receive
+                                personalized guidance tailored to your specific
+                                circumstances. We work closely with you to
+                                understand your financial objectives and develop
+                                strategies that align with your long-term
+                                vision. What sets us apart is our dedication to
+                                your financial independence and stability. We go
+                                beyond mere recommendations, providing ongoing
+                                support and guidance to help you navigate the
+                                complexities of the financial landscape with
+                                confidence. Whether you're seeking to build
+                                passive income streams, explore long-term
+                                investments, or capitalize on opportunities in
+                                emerging markets like South Africa, we have the
+                                knowledge and experience to help you succeed.
+                                Choose us as your trusted partner, and let's
+                                embark on a journey towards financial prosperity
+                                together.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 pe-lg-0 wow fadeIn"
+                        data-wow-delay="0.5s"
+                        style="min-height: 400px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/feature.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <p class="d-inline-block border rounded-pill py-1 px-4">
+                        Team
+                    </p>
+                    <h1>Our Experience Team</h1>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Tomas D.</h5>
+                                <p class="text-primary">Consultant</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>David R.</h5>
+                                <p class="text-primary">SEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Anna T.</h5>
+                                <p class="text-primary">Investing Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Emma S.</h5>
+                                <p class="text-primary">Finance Expert</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <p class="d-inline-block border rounded-pill py-1 px-4">
+                        Testimonial
+                    </p>
+                    <h1>What Say Our Clents!</h1>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
+                            src="img/testimonial-1.jpg"
+                            style="
+                                width: 100px;
+                                height: 100px;
+                                object-fit: cover;
+                            "
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <p>
+                                I can't express how grateful I am for the
+                                guidance I received from this consultancy. Their
+                                expertise in financial planning and investment
+                                strategy truly made a difference in my life.
+                                With their help, I was able to map out a clear
+                                path towards financial independence, and I feel
+                                more confident about my financial future now
+                                than ever before.
+                            </p>
+                            <h5 class="mb-1">Sarah T</h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
+                            src="img/testimonial-2.jpg"
+                            style="
+                                width: 100px;
+                                height: 100px;
+                                object-fit: cover;
+                            "
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <p>
+                                I was hesitant about investing before I came
+                                across this consultancy, but their team's
+                                knowledge and support quickly put me at ease.
+                                Their advice on portfolio diversification and
+                                asset management has helped me build a more
+                                robust investment portfolio. I feel like I'm in
+                                good hands and would highly recommend their
+                                services to anyone serious about securing their
+                                financial future.
+                            </p>
+                            <h5 class="mb-1">John R.</h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
+                            src="img/testimonial-3.jpg"
+                            style="
+                                width: 100px;
+                                height: 100px;
+                                object-fit: cover;
+                            "
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <p>
+                                The guidance and support I received from this
+                                consultancy have been invaluable. Their smart
+                                investing strategies have allowed me to make
+                                informed decisions about my finances, and I've
+                                already started to see the benefits. Thanks to
+                                their help, I feel more in control of my
+                                financial destiny and optimistic about what the
+                                future holds.
+                            </p>
+                            <h5 class="mb-1">Michael S.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div
+                            class="h-100 bg-light rounded d-flex align-items-center p-5"
+                        >
+                            <div
+                                class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white"
+                                style="width: 55px; height: 55px"
+                            >
+                                <i
+                                    class="fa fa-map-marker-alt text-primary"
+                                ></i>
+                            </div>
+                            <div class="ms-4">
+                                <p class="mb-2">Address</p>
+                                <h5 class="mb-0">George, 6530, South Africa</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div
+                            class="h-100 bg-light rounded d-flex align-items-center p-5"
+                        >
+                            <div
+                                class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white"
+                                style="width: 55px; height: 55px"
+                            >
+                                <i class="fa fa-phone-alt text-primary"></i>
+                            </div>
+                            <div class="ms-4">
+                                <p class="mb-2">Call Us Now</p>
+                                <h5 class="mb-0">+27440040102</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div
+                            class="h-100 bg-light rounded d-flex align-items-center p-5"
+                        >
+                            <div
+                                class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white"
+                                style="width: 55px; height: 55px"
+                            >
+                                <i class="fa fa-envelope-open text-primary"></i>
+                            </div>
+                            <div class="ms-4">
+                                <p class="mb-2">Mail Us Now</p>
+                                <h5
+                                    style="
+                                        white-space: nowrap;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        max-width: 150px;
+                                    "
+                                    class="mb-0"
+                                >
+                                    prosper_wise@gmail.com
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="bg-light rounded p-5">
+                            <p
+                                class="d-inline-block border rounded-pill py-1 px-4"
+                            >
+                                Contact Us
+                            </p>
+                            <h1 class="mb-4">
+                                Have Any Query? Please Contact Us!
+                            </h1>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="name"
+                                                placeholder="Your Name"
+                                            />
+                                            <label for="name">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="email"
+                                                class="form-control"
+                                                id="email"
+                                                placeholder="Your Email"
+                                            />
+                                            <label for="email"
+                                                >Your Email</label
+                                            >
+                                            <div
+                                                id="result"
+                                                style="color: red"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="subject"
+                                                placeholder="Subject"
+                                            />
+                                            <label for="subject">Subject</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea
+                                                class="form-control"
+                                                placeholder="Leave a message here"
+                                                id="message"
+                                                style="height: 100px"
+                                            ></textarea>
+                                            <label for="message">Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button
+                                            class="btn btn-primary w-100 py-3"
+                                            type="submit"
+                                            id="submit"
+                                            onclick="sendForm()"
+                                        >
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="h-100" style="min-height: 400px">
+                            <iframe
+                                class="rounded w-100 h-100"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4416.40054502198!2d22.491371032593214!3d-33.97809264764394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dd61b3fdb56703f%3A0xa6b765e1fb859008!2sKraaibosch%20Country%20Estates!5e0!3m2!1suk!2sua!4v1716325286699!5m2!1suk!2sua"
+                                frameborder="0"
+                                allowfullscreen=""
+                                aria-hidden="false"
+                                tabindex="0"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">ProsperWise</h5>
+                        <p>
+                            Stay connected with us and explore more about our
+                            financial consulting services.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Address</h5>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>George,
+                            6530, South Africa
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+27440040102
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i
+                            >prosper_wise@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Quick Links</h5>
+                        <a class="btn btn-link" href="index.html">Home</a>
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Privacy</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Terms & Condition</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with a superior and
+                    more relevant browsing experience on the site.
+                    <a href="#">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
